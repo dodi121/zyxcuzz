@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RekapData - Dashboard Rekapan Data Interaktif</title>
+    <meta name="description" content="Aplikasi dashboard interaktif dan responsif untuk rekapan data transaksi, keuangan, penjualan, dan operasional dengan visualisasi grafik, filter cerdas, dan ekspor laporan." />
+    <meta property="og:title" content="RekapData - Dashboard Rekapan Data Interaktif" />
+    <meta property="og:description" content="Aplikasi dashboard interaktif dan responsif untuk rekapan data transaksi, keuangan, penjualan, dan operasional dengan visualisasi grafik, filter cerdas, dan ekspor laporan." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+      @media print {
+        body * {
+          visibility: hidden !important;
+        }
+        #printArea, #printArea *,
+        #orderReceiptPrintArea, #orderReceiptPrintArea * {
+          visibility: visible !important;
+        }
+        #printArea, #orderReceiptPrintArea {
+          position: absolute !important;
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          display: block !important;
+          background: white !important;
+          color: black !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 dark:bg-slate-950 text-slate-800 dark:text-slate-100 antialiased font-sans min-h-screen transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

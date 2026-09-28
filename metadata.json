@@ -1,0 +1,8 @@
+{
+  "name": "RekapData - Dashboard Rekapan Data Interaktif",
+  "description": "Aplikasi dashboard interaktif dan responsif untuk rekapan data transaksi, keuangan, penjualan, dan operasional dengan visualisasi grafik, filter cerdas, dan ekspor laporan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

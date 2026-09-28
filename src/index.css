@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth draggable & scrollable tab navigation bars */
+.scroll-touch-x {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+  scrollbar-width: thin;
+}
+
+.scroll-touch-x::-webkit-scrollbar {
+  height: 4px;
+}
+
+.scroll-touch-x::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-touch-x::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+
+.scroll-touch-x::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}

@@ -1,0 +1,56 @@
+{
+  "activeOutlet": "nusama",
+  "outlets": {
+    "nusa_indah": {
+      "name": "Outlet Nusa Indah"
+    },
+    "nusama": {
+      "name": "Outlet Nusama"
+    }
+  },
+  "data": {
+    "nusa_indah": {
+      "activeShift": "pagi",
+      "pagi": {
+        "modalAwal": 300000,
+        "cupAwal": 60,
+        "cupTerjualManual": null,
+        "cashAktual": 0,
+        "produkList": [],
+        "pengeluaranList": [],
+        "gratisList": []
+      },
+      "sore": {
+        "modalAwal": 300000,
+        "cupAwal": 60,
+        "cupTerjualManual": null,
+        "cashAktual": 0,
+        "produkList": [],
+        "pengeluaranList": [],
+        "gratisList": []
+      }
+    },
+    "nusama": {
+      "activeShift": "pagi",
+      "pagi": {
+        "modalAwal": 100000,
+        "cupAwal": 80,
+        "cupTerjualManual": null,
+        "cashAktual": 0,
+        "produkList": [],
+        "pengeluaranList": [],
+        "gratisList": []
+      },
+      "sore": {
+        "modalAwal": 500000,
+        "cupAwal": 80,
+        "cupTerjualManual": null,
+        "cashAktual": 0,
+        "produkList": [],
+        "pengeluaranList": [],
+        "gratisList": []
+      }
+    }
+  },
+  "_syncUpdatedAt": 1790397613195
+}
